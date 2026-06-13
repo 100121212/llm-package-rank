@@ -1,0 +1,32 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Run tests
+        run: python3 -m unittest discover -s tests
+      - name: Generate sample report
+        run: |
+          python3 -m llm_package_rank.cli run \
+            --tasks fixtures/tasks.json \
+            --responses fixtures/responses.json \
+            --packages fixtures/packages.json \
+            --as-of-date 2026-06-13 \
+            --out reports/sample.md \
+            --json-out reports/sample.json
+      - name: Check sampler dry run
+        run: |
+          python3 -m llm_package_rank.cli sample-openai \
+            --tasks fixtures/tasks.json \
+            --model test-model \
+            --dry-run

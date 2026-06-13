@@ -1,0 +1,32 @@
+[
+  {
+    "task_id": "python-charts",
+    "model": "model-a",
+    "answer": "Start with Plotly for interactive charts and matplotlib for static export. If you prefer grammar-of-graphics APIs, also evaluate Lets-Plot."
+  },
+  {
+    "task_id": "python-charts",
+    "model": "model-b",
+    "answer": "Use matplotlib for publication-quality static output. Plotly is the usual choice when the dashboard needs hover and browser-native interactivity."
+  },
+  {
+    "task_id": "local-vector-search",
+    "model": "model-a",
+    "answer": "ChromaDB is simple for a local RAG app. FAISS is fast, but you will build more persistence and metadata handling yourself."
+  },
+  {
+    "task_id": "local-vector-search",
+    "model": "model-b",
+    "answer": "For embedded local search, sqlite-vec is worth testing. Chroma is easier if you want batteries included."
+  },
+  {
+    "task_id": "cli-framework",
+    "model": "model-a",
+    "answer": "Typer is a strong default for typed Python CLIs. Click is mature and flexible when you need more explicit control."
+  },
+  {
+    "task_id": "cli-framework",
+    "model": "model-b",
+    "answer": "Click remains the safest established choice. Typer gives a cleaner annotation-driven API."
+  }
+]

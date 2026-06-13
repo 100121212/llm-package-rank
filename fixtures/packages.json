@@ -1,0 +1,83 @@
+[
+  {
+    "name": "matplotlib",
+    "ecosystem": "python",
+    "stars": 21000,
+    "last_release": "2026-04-12",
+    "open_issues": 390,
+    "funding": true,
+    "aliases": ["Matplotlib"]
+  },
+  {
+    "name": "plotly",
+    "ecosystem": "python",
+    "stars": 18000,
+    "last_release": "2025-11-01",
+    "open_issues": 620,
+    "funding": false,
+    "aliases": ["Plotly"]
+  },
+  {
+    "name": "lets-plot",
+    "ecosystem": "python",
+    "stars": 1200,
+    "last_release": "2026-05-20",
+    "open_issues": 54,
+    "funding": false,
+    "aliases": ["Lets-Plot", "letsplot"]
+  },
+  {
+    "name": "chromadb",
+    "ecosystem": "python",
+    "stars": 23000,
+    "last_release": "2026-02-15",
+    "open_issues": 510,
+    "funding": true,
+    "aliases": ["Chroma", "ChromaDB"]
+  },
+  {
+    "name": "sqlite-vec",
+    "ecosystem": "sqlite",
+    "stars": 7600,
+    "last_release": "2026-05-02",
+    "open_issues": 41,
+    "funding": true,
+    "aliases": ["sqlite_vec", "sqlite-vec"]
+  },
+  {
+    "name": "faiss",
+    "ecosystem": "cpp/python",
+    "stars": 34000,
+    "last_release": "2024-01-18",
+    "open_issues": 910,
+    "funding": false,
+    "aliases": ["FAISS"]
+  },
+  {
+    "name": "typer",
+    "ecosystem": "python",
+    "stars": 17000,
+    "last_release": "2026-03-05",
+    "open_issues": 180,
+    "funding": true,
+    "aliases": ["Typer"]
+  },
+  {
+    "name": "click",
+    "ecosystem": "python",
+    "stars": 16000,
+    "last_release": "2025-08-12",
+    "open_issues": 130,
+    "funding": true,
+    "aliases": ["Click"]
+  },
+  {
+    "name": "cyclopts",
+    "ecosystem": "python",
+    "stars": 900,
+    "last_release": "2026-05-28",
+    "open_issues": 19,
+    "funding": false,
+    "aliases": ["Cyclopts"]
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "python-charts",
+    "prompt": "I need to build a Python dashboard with interactive charts and exportable static figures. Which libraries should I evaluate?"
+  },
+  {
+    "id": "local-vector-search",
+    "prompt": "I want local vector search for a small RAG app without running a separate database server. Which open-source tools fit?"
+  },
+  {
+    "id": "cli-framework",
+    "prompt": "I am building a polished Python CLI with subcommands, typed options, and readable help output. What should I use?"
+  }
+]

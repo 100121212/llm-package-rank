@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-package-rank"
+version = "0.1.0"
+description = "See which open-source packages LLMs recommend for coding tasks."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+  { name = "LLM Package Rank Maintainers" }
+]
+keywords = ["open-source", "llm", "packages", "recommendation-bias", "ai-coding"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Software Development :: Quality Assurance",
+]
+
+[project.scripts]
+llm-package-rank = "llm_package_rank.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["llm_package_rank*"]
