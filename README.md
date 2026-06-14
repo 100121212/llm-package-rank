@@ -65,7 +65,8 @@ never written to run artifacts.
 
 ## Sample Output
 
-The included fixtures produce a report that can identify:
+The included fixtures produce [a sample Markdown report](reports/sample.md) and
+[a sample JSON report](reports/sample.json) that can identify:
 
 - `cyclopts` as a high-maintenance CLI package that received no sample model
   recommendations.

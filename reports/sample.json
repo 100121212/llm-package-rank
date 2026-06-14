@@ -1,0 +1,161 @@
+{
+  "as_of_date": "2026-06-13",
+  "by_model": {
+    "model-a": {
+      "chromadb": 1,
+      "click": 1,
+      "faiss": 1,
+      "lets-plot": 1,
+      "matplotlib": 1,
+      "plotly": 1,
+      "typer": 1
+    },
+    "model-b": {
+      "chromadb": 1,
+      "click": 1,
+      "matplotlib": 1,
+      "plotly": 1,
+      "sqlite-vec": 1,
+      "typer": 1
+    }
+  },
+  "by_task": {
+    "cli-framework": {
+      "click": 2,
+      "typer": 2
+    },
+    "local-vector-search": {
+      "chromadb": 2,
+      "faiss": 1,
+      "sqlite-vec": 1
+    },
+    "python-charts": {
+      "lets-plot": 1,
+      "matplotlib": 2,
+      "plotly": 2
+    }
+  },
+  "generated_at": "2026-06-14T03:04:40+00:00",
+  "packages": [
+    {
+      "ecosystem": "python",
+      "funding": true,
+      "last_release": "2026-03-05",
+      "maintenance_score": 0.783,
+      "mentions": 2,
+      "overlooked": false,
+      "package": "typer",
+      "recommendation_share": 0.333,
+      "stale_attention": false,
+      "stars": 17000,
+      "visibility_gap": 0.45
+    },
+    {
+      "ecosystem": "python",
+      "funding": true,
+      "last_release": "2026-04-12",
+      "maintenance_score": 0.665,
+      "mentions": 2,
+      "overlooked": false,
+      "package": "matplotlib",
+      "recommendation_share": 0.333,
+      "stale_attention": false,
+      "stars": 21000,
+      "visibility_gap": 0.332
+    },
+    {
+      "ecosystem": "python",
+      "funding": true,
+      "last_release": "2026-02-15",
+      "maintenance_score": 0.588,
+      "mentions": 2,
+      "overlooked": false,
+      "package": "chromadb",
+      "recommendation_share": 0.333,
+      "stale_attention": false,
+      "stars": 23000,
+      "visibility_gap": 0.255
+    },
+    {
+      "ecosystem": "python",
+      "funding": true,
+      "last_release": "2025-08-12",
+      "maintenance_score": 0.552,
+      "mentions": 2,
+      "overlooked": false,
+      "package": "click",
+      "recommendation_share": 0.333,
+      "stale_attention": false,
+      "stars": 16000,
+      "visibility_gap": 0.219
+    },
+    {
+      "ecosystem": "python",
+      "funding": false,
+      "last_release": "2025-11-01",
+      "maintenance_score": 0.343,
+      "mentions": 2,
+      "overlooked": false,
+      "package": "plotly",
+      "recommendation_share": 0.333,
+      "stale_attention": true,
+      "stars": 18000,
+      "visibility_gap": 0.01
+    },
+    {
+      "ecosystem": "sqlite",
+      "funding": true,
+      "last_release": "2026-05-02",
+      "maintenance_score": 1.0,
+      "mentions": 1,
+      "overlooked": false,
+      "package": "sqlite-vec",
+      "recommendation_share": 0.167,
+      "stale_attention": false,
+      "stars": 7600,
+      "visibility_gap": 0.833
+    },
+    {
+      "ecosystem": "python",
+      "funding": false,
+      "last_release": "2026-05-20",
+      "maintenance_score": 0.913,
+      "mentions": 1,
+      "overlooked": false,
+      "package": "lets-plot",
+      "recommendation_share": 0.167,
+      "stale_attention": false,
+      "stars": 1200,
+      "visibility_gap": 0.746
+    },
+    {
+      "ecosystem": "cpp/python",
+      "funding": false,
+      "last_release": "2024-01-18",
+      "maintenance_score": 0.0,
+      "mentions": 1,
+      "overlooked": false,
+      "package": "faiss",
+      "recommendation_share": 0.167,
+      "stale_attention": true,
+      "stars": 34000,
+      "visibility_gap": -0.167
+    },
+    {
+      "ecosystem": "python",
+      "funding": false,
+      "last_release": "2026-05-28",
+      "maintenance_score": 0.959,
+      "mentions": 0,
+      "overlooked": true,
+      "package": "cyclopts",
+      "recommendation_share": 0.0,
+      "stale_attention": false,
+      "stars": 900,
+      "visibility_gap": 0.959
+    }
+  ],
+  "recommendation_count": 13,
+  "response_count": 6,
+  "task_count": 3
+}
